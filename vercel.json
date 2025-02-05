@@ -1,16 +1,10 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "*.html",
-        "use": "@vercel/static"
-      }
-    ],
-    "routes": [
-      { "src": "/", "dest": "/index.html" },
-      { "src": "/about", "dest": "/about.html" },
-      { "src": "/experience", "dest": "/experience.html" },
-      { "src": "/projects", "dest": "/projects.html" },
-      { "src": "/contact", "dest": "/contact.html" }
-    ]
-  }
+  "version": 2,
+  "routes": [
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/about", "dest": "/about.html" },
+    { "src": "/experience", "dest": "/experience.html" },
+    { "src": "/projects", "dest": "/projects.html" },
+    { "src": "/contact", "dest": "/contact.html" }
+  ]
+}
